@@ -1,6 +1,6 @@
 {
   "name": "react-cloud-progress-bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "progress bar for react",
   "main": "lib/index.js",
   "scripts": {
@@ -11,6 +11,9 @@
   "files": [
     "lib"
   ],
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

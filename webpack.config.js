@@ -53,11 +53,5 @@ export default {
         loaders: [ 'style-loader', 'css-loader', 'sass-loader' ]
       }
     ]
-  },
-  externals: {
-    'react'       : 'umd react',
-    'react-dom'   : 'umd react-dom',
-    'react-portal': 'umd react-portal',
-    'tween.js'    : 'umd tween.js'
   }
 };
