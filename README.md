@@ -53,6 +53,12 @@
 
   Set the progress bar color.
 
+  #### height: string
+
+  ##### default:'2px'
+
+  Set the progress bar height.
+
   #### duration: string
 
   ##### default: '10'
@@ -61,4 +67,4 @@
 
   ## Changelog
 
-  - 1.0.0
+  - 1.0.3

@@ -1,6 +1,6 @@
 {
   "name": "react-cloud-progress-bar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "progress bar for react",
   "main": "lib/index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cloudshadow/react-progress-bar.git"
+    "url": "git+https://github.com/cloudshadow/react-cloud-progress-bar.git"
   },
   "keywords": [
     "react",
@@ -47,7 +47,7 @@
   "author": "cloudshadow",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cloudshadow/react-progress-bar/issues"
+    "url": "https://github.com/cloudshadow/react-cloud-progress-bar/issues"
   },
-  "homepage": "https://github.com/cloudshadow/react-progress-bar#readme"
+  "homepage": "https://github.com/cloudshadow/react-cloud-progress-bar#readme"
 }

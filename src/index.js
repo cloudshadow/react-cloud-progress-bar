@@ -12,6 +12,7 @@ export default class ProgressBarComponent extends React.Component {
   componentDidMount () {
     this.progressBar = document.getElementById('progressBar');
     this.progressBar.style.backgroundColor = this.props.color || '#0085ff';
+    this.progressBar.style.height = this.props.height || '2px';
     this.progressBar.style.animation = 'progressing ' + (this.props.duration || '10') + 's infinite linear ';
     this.progressBar.addEventListener("animationiteration", () => {//animationend animationiteration
       this.props.pFunctions.forEach((func) => {
@@ -32,5 +33,6 @@ export default class ProgressBarComponent extends React.Component {
 ProgressBarComponent.propTypes = {
   pFunctions: PropTypes.array.isRequired,
   color: PropTypes.string,
+  height: PropTypes.string,
   duration: PropTypes.string
 };
