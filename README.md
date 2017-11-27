@@ -22,6 +22,7 @@
       ]
     }
     color={'green'}
+    height={'3px'}
     duration={'5'}
   />
 
