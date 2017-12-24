@@ -1,6 +1,6 @@
 - # react-cloud-progress-bar
 
-  > Simple [React](http://facebook.github.io/react/index.html) component for a progress bar.
+  > Simple [React](http://facebook.github.io/react/index.html) component for a progress bar. See [Demo](http://cloudshadow.me/progressbar) 
 
   ## Install
 
